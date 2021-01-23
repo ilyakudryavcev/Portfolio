@@ -1,0 +1,106 @@
+/* Медиа запрос: для экранов до 1110px */
+@media (max-width: 1140px) {
+
+.card {
+ width: calc( 50% - 15px );
+}
+
+
+/* footer */
+.footer {
+padding-top: 40px;
+padding-bottom: 60px;
+}
+
+.footer-row {
+/* column-reverse  колонка в обратном порядке */
+flex-direction: column-reverse;
+align-items: center;
+text-align: center;
+}
+
+/* выбираем все элементы первого уровня которые подходят под этот селектор(* любой селектор)   */
+.footer-row > * + * {
+margin-bottom: 50px;
+} 
+
+.footer-icons-list {
+justify-content: center;
+}
+
+}
+/* Медиа запрос: для экранов до 760px */
+@media (max-width: 760px) {
+    /* Header */
+.header__title {
+font-size: 32px;
+}
+.header__subtitle {
+font-size: 14px;
+}
+
+
+/*Portfolio  */
+.portfolio {
+padding-top: 40px;
+padding-bottom: 60px;
+}
+
+.section-header {
+font-size: 32px;
+margin-bottom: 30px;
+}
+
+.portfolio-cards-wrapper {
+justify-content: center;
+}
+
+.card {
+padding: 15px;
+width: 100%;
+}
+
+.card:nth-last-child(2) {
+margin-bottom: 30px;
+}
+
+
+.card-img {
+margin-bottom: 10px;
+}
+
+.card-title {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.card p {
+font-size: 14px;
+}
+
+/* Footer */
+.footer-copyright-name {
+font-style: 18px;
+margin-bottom: 5px;
+}
+
+.footer-copyright p {
+font-size: 14px;
+}
+
+.footer-icons p {
+font-size: 14px;
+}
+
+.footer-contacts p {
+font-size: 14px;
+margin: 0;
+margin-top: 15px-;
+}
+}
+
+        
+
+       
+
+    
